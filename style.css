@@ -6,6 +6,7 @@
 
 body {
     margin: 0;
+    background-color: rgb(201, 201, 201);
 }
 
 .container {
@@ -100,9 +101,8 @@ input[type='search'] {
 /* MAIN */
 
 .main {
-    background-color: green;
     display: flex;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
 }
 
 .main-left {
@@ -119,6 +119,7 @@ input[type='search'] {
     background-color: white;
     border-radius: 10px;
     padding: 1rem;
+    box-shadow: 2px 2px 5px 1px black;
 }
 
 .label {

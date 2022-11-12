@@ -1,6 +1,7 @@
 :root {
     font-size: 62.5%;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -100,4 +101,46 @@ input[type='search'] {
 
 .main {
     background-color: green;
+    display: flex;
+}
+
+.main-left {
+    padding: 1rem;
+}
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* grid-template-rows: repeat(auto-fit, 1fr); */
+    gap: 1rem;
+    height: 95%;
+}
+
+.project-card {
+    /* height: 1fr; */
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.label {
+    font-size: 2rem;
+}
+
+.main-right {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.announcements-stories,
+.trending-users {
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.announcements,
+.trending {
+    flex: 1;;
 }

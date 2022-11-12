@@ -21,6 +21,21 @@ body {
 .sidebar {
     background-color: orange;
     grid-area: 1 / 1 / 3 / 2;
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+}
+
+.sidebar .logo {
+    padding: 1rem;
+}
+
+.sidebar .nav {
+    padding: 1rem;
+}
+
+.sidebar .settings {
+    padding: 1rem;
 }
 
 .main {
